@@ -1,0 +1,29 @@
+#testimonials {
+    background-color: #f4f4f4; /* Or any other color that fits your design */
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-bottom: 1.5rem;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #333;
+    quotes: "“" "”" "‘" "’";
+  }
+  
+  blockquote:before {
+    content: open-quote;
+  }
+  
+  blockquote:after {
+    content: close-quote;
+  }
+  
+  .star-rating {
+    color: #ffc107; /* Gold color for stars */
+    font-size: 1.5rem;
+  }
+  

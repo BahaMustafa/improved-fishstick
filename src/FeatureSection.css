@@ -1,0 +1,51 @@
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust based on the max width of your content area */
+  }
+  
+  .feature {
+    flex: 1;
+    margin: 0 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .feature-content {
+    background: rgba(0, 0, 0, 0.5); /* Overlay to improve text readability */
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature hr {
+    border: none;
+    border-top: 3px solid #ffffff;
+    width: 50px;
+    margin: 20px 0;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .feature-section {
+      flex-direction: column;
+    }
+  
+    .feature {
+      margin: 10px 0;
+    }
+  }
+  
