@@ -6648,6 +6648,11 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
+main@^1000.0.1:
+  version "1000.0.1"
+  resolved "https://registry.npmjs.org/main/-/main-1000.0.1.tgz"
+  integrity sha512-zhB0yIsogMo0xGJEusCzS4I13ejvhEJ1MOWi1OR4n77HyhlqgvNNwhOOt5moSdTYd+Vi8B4wPE/MDmhquNHxrA==
+
 make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz"
