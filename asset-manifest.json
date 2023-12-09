@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/improved-fishstick/static/css/main.194a59e3.css",
-    "main.js": "/improved-fishstick/static/js/main.f5215b0b.js",
+    "main.css": "/improved-fishstick/static/css/main.4040725c.css",
+    "main.js": "/improved-fishstick/static/js/main.8343b8da.js",
     "static/js/787.c922dae8.chunk.js": "/improved-fishstick/static/js/787.c922dae8.chunk.js",
     "index.html": "/improved-fishstick/index.html",
-    "main.194a59e3.css.map": "/improved-fishstick/static/css/main.194a59e3.css.map",
-    "main.f5215b0b.js.map": "/improved-fishstick/static/js/main.f5215b0b.js.map",
+    "main.4040725c.css.map": "/improved-fishstick/static/css/main.4040725c.css.map",
+    "main.8343b8da.js.map": "/improved-fishstick/static/js/main.8343b8da.js.map",
     "787.c922dae8.chunk.js.map": "/improved-fishstick/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.194a59e3.css",
-    "static/js/main.f5215b0b.js"
+    "static/css/main.4040725c.css",
+    "static/js/main.8343b8da.js"
   ]
 }
