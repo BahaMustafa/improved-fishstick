@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/improved-fishstick/static/css/main.5a151fff.css",
-    "main.js": "/improved-fishstick/static/js/main.bca06ac8.js",
+    "main.css": "/improved-fishstick/static/css/main.36bdaa00.css",
+    "main.js": "/improved-fishstick/static/js/main.79dbcabf.js",
     "static/js/787.c922dae8.chunk.js": "/improved-fishstick/static/js/787.c922dae8.chunk.js",
     "static/media/Untitled design.png": "/improved-fishstick/static/media/Untitled design.5bef3d528ffec6ec1950.png",
     "index.html": "/improved-fishstick/index.html",
-    "main.5a151fff.css.map": "/improved-fishstick/static/css/main.5a151fff.css.map",
-    "main.bca06ac8.js.map": "/improved-fishstick/static/js/main.bca06ac8.js.map",
+    "main.36bdaa00.css.map": "/improved-fishstick/static/css/main.36bdaa00.css.map",
+    "main.79dbcabf.js.map": "/improved-fishstick/static/js/main.79dbcabf.js.map",
     "787.c922dae8.chunk.js.map": "/improved-fishstick/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a151fff.css",
-    "static/js/main.bca06ac8.js"
+    "static/css/main.36bdaa00.css",
+    "static/js/main.79dbcabf.js"
   ]
 }
