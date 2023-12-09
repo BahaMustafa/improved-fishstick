@@ -8,13 +8,13 @@ function Contact() {
   const emailAddress = 'kalradwan@yahoo.com'; // Replace with your email address
   const licenseNumber = '1078043.B';
   const address = '2203 Lerona Ave, Rowland Heights, CA 91748';
+  const googleMapsQuery = "https://maps.google.com/?q=2203+Lerona+Ave,+Rowland+Heights,+CA+91748";
 
   return (
     <section id="contact">
       <h2>Contact Kal Best Contractor, Inc (KBCI)</h2>
       <p>
-        <strong>Address:</strong> {address}
-      </p>
+      <strong>Address:</strong> <a href={googleMapsQuery} target="_blank" rel="noopener noreferrer">{address}</a>      </p>
       <p>
         <strong>Office Phone:</strong> <a href={`tel:${officePhoneNumber}`}>{officePhoneNumber}</a>
       </p>
