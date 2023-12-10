@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/improved-fishstick/static/css/main.4040725c.css",
-    "main.js": "/improved-fishstick/static/js/main.8343b8da.js",
-    "static/js/787.c922dae8.chunk.js": "/improved-fishstick/static/js/787.c922dae8.chunk.js",
-    "index.html": "/improved-fishstick/index.html",
-    "main.4040725c.css.map": "/improved-fishstick/static/css/main.4040725c.css.map",
-    "main.8343b8da.js.map": "/improved-fishstick/static/js/main.8343b8da.js.map",
-    "787.c922dae8.chunk.js.map": "/improved-fishstick/static/js/787.c922dae8.chunk.js.map"
+    "main.css": "/static/css/main.4040725c.css",
+    "main.js": "/static/js/main.0547ffb0.js",
+    "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
+    "index.html": "/index.html",
+    "main.4040725c.css.map": "/static/css/main.4040725c.css.map",
+    "main.0547ffb0.js.map": "/static/js/main.0547ffb0.js.map",
+    "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4040725c.css",
-    "static/js/main.8343b8da.js"
+    "static/js/main.0547ffb0.js"
   ]
 }
