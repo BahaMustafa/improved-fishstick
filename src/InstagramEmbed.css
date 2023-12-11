@@ -1,0 +1,11 @@
+/* InstagramFeed.css */
+.instagram-feed {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .instagram-feed iframe {
+    margin: 10px;
+    border: none; /* Remove iframe border */
+  }
+  
