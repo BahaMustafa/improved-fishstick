@@ -1,201 +1,274 @@
 
-  [
+  
+    [
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1148.JPG?raw=true",
+        "alt": "Fire on Glass - Image 1",
+        "description": "Fire on Glass - Image 1",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1152.JPG?raw=true",
+        "alt": "Fire on Glass - Image 2",
+        "description": "Fire on Glass - Image 2",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1153.JPG?raw=true",
+        "alt": "Fire on Glass - Image 3",
+        "description": " Fire on Glass - Image 3",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1188.JPG?raw=true",
+        "alt": "Fire on Glass - Image 4",
+        "description": " Fire on Glass - Image 4",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1232.JPG?raw=true",
+        "alt": "Fire on Glass - Image 5",
+        "description": " Fire on Glass - Image 5",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1260.JPG?raw=true",
+        "alt": "Fire on Glass - Image 6",
+        "description": " Fire on Glass - Image 6",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1282.JPG?raw=true",
+        "alt": "Fire on Glass - Image 7",
+        "description": " Fire on Glass - Image 7",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1283.JPG?raw=true",
+        "alt": "Fire on Glass - Image 8",
+        "description": " Fire on Glass - Image 8",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1289.JPG?raw=true",
+        "alt": "Fire on Glass - Image 9",
+        "description": " Fire on Glass - Image 9",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1295.JPG?raw=true",
+        "alt": "Fire on Glass - Image 10",
+        "description": " Fire on Glass - Image 10",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1296.JPG?raw=true",
+        "alt": "Fire on Glass - Image 11",
+        "description": " Fire on Glass - Image 11",
+        "category": "Fire on glass"
+      },
+      {
+        "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/Fire%20on%20glass/IMG_1392.JPG?raw=true",
+        "alt": "Fire on Glass - Image 12",
+        "description": " Fire on Glass - Image 12",
+        "category": "Fire on glass"
+      },    
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(1).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 1",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 1",
+      "description": " Remolding of Santa Monica Reed Park - Image 1",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(2).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 2",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 2",
+      "description": " Remolding of Santa Monica Reed Park - Image 2",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(3).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 3",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 3",
+      "description": " Remolding of Santa Monica Reed Park - Image 3",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(4).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 4",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 4",
+      "description": " Remolding of Santa Monica Reed Park - Image 4",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(5).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 5",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 5",
+      "description": " Remolding of Santa Monica Reed Park - Image 5",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(6).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 6",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 6",
+      "description": " Remolding of Santa Monica Reed Park - Image 6",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(7).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 7",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 7",
+      "description": " Remolding of Santa Monica Reed Park - Image 7",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/1%20(8).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 8",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 8",
+      "description": " Remolding of Santa Monica Reed Park - Image 8",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(1).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 9",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 9",
+      "description": " Remolding of Santa Monica Reed Park - Image 9",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(10).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 10",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 10",
+      "description": " Remolding of Santa Monica Reed Park - Image 10",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(11).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 11",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 11",
+      "description": " Remolding of Santa Monica Reed Park - Image 11",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(12).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 12",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 12",
+      "description": " Remolding of Santa Monica Reed Park - Image 12",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(2).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 13",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 13",
+      "description": " Remolding of Santa Monica Reed Park - Image 13",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(3).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 14",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 14",
+      "description": " Remolding of Santa Monica Reed Park - Image 14",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(4).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 15",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 15",
+      "description": " Remolding of Santa Monica Reed Park - Image 15",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(5).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 16",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 16",
+      "description": " Remolding of Santa Monica Reed Park - Image 16",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(6).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 17",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 17",
+      "description": " Remolding of Santa Monica Reed Park - Image 17",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(7).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 18",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 18",
+      "description": " Remolding of Santa Monica Reed Park - Image 18",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(8).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 19",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 19",
+      "description": " Remolding of Santa Monica Reed Park - Image 19",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/2%20(9).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 20",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 20",
+      "description": " Remolding of Santa Monica Reed Park - Image 20",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/3%20(1).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 21",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 21",
+      "description": " Remolding of Santa Monica Reed Park - Image 21",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/3%20(2).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 22",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 22",
+      "description": " Remolding of Santa Monica Reed Park - Image 22",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/3%20(3).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 23",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 23",
+      "description": " Remolding of Santa Monica Reed Park - Image 23",
       "category": "remolding of Santa Monica Reed Park"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/remolding%20of%20Santa%20Monica%20Reed%20Park/3%20(4).jpg?raw=true",
       "alt": "Remolding of Santa Monica Reed Park - Image 24",
-      "description": "Description for Remolding of Santa Monica Reed Park - Image 24",
+      "description": " Remolding of Santa Monica Reed Park - Image 24",
       "category": "remolding of Santa Monica Reed Park"
     }, 
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(1).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 1",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 1",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 1",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(2).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 2",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 2",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 2",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(3).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 3",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 3",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 3",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(4).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 4",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 4",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 4",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(7).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 5",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 5",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 5",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(8).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 6",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 6",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 6",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(9).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 7",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 7",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 7",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(10).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 8",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 8",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 8",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     {
       "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20%26%20large%20areas%20work/We%20built%20a%20retaining%20wall%20in%20a%20stadium%20in%20the%20high%20school%20In%20San%20Juan%20Capistrano/sanjuan%20(11).JPG?raw=true",
       "alt": "Retaining Wall at San Juan Capistrano High School - Image 9",
-      "description": "Description for Retaining Wall at San Juan Capistrano High School - Image 9",
+      "description": " Retaining Wall at San Juan Capistrano High School - Image 9",
       "category": "We built a retaining wall in a stadium in the high school In San Juan Capistrano"
     },
     
@@ -203,343 +276,343 @@
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Bathrooms%20work/WhatsApp%20Image%202023-04-15%20at%206.39.10%20PM%20(2).jpeg?raw=true",
     "alt": "Bathrooms work",
-    "description": "Description for Bathrooms work",
+    "description": " Bathrooms work",
     "category": "Bathrooms work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Bathrooms%20work/IMG_6119.JPG?raw=true",
     "alt": "Bathrooms work",
-    "description": "Description for Bathrooms work",
+    "description": " Bathrooms work",
     "category": "Bathrooms work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Bathrooms%20work/WhatsApp%20Image%202023-04-15%20at%206.39.10%20PM%20(4).jpeg?raw=true",
     "alt": "Bathrooms work",
-    "description": "Description for Bathrooms work",
+    "description": " Bathrooms work",
     "category": "Bathrooms work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Bathrooms%20work/WhatsApp%20Image%202023-04-15%20at%206.39.10%20PM%20(5).jpeg?raw=true",
     "alt": "Bathrooms work",
-    "description": "Description for Bathrooms work",
+    "description": " Bathrooms work",
     "category": "Bathrooms work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/ELECTRONIC%20GATE.JPG?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/FENCE%20(1).JPG?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/FENCE%20(2).JPG?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/IMG_3395.JPG?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/IMG_3398.JPG?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/Very%20Cool%20Door.jpg?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/WhatsApp%20Image%202023-04-15%20at%206.39.09%20PM%20(2).jpeg?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Doors,%20Windoes%20&%20Electric%20gate%20and%20its%20fence/bedroom-door-design.jpg?raw=true",
     "alt": "Doors, Windoes & Electric gate and its fence",
-    "description": "Description for Doors, Windoes & Electric gate and its fence",
+    "description": " Doors, Windoes & Electric gate and its fence",
     "category": "Doors, windows & Electric gate and its fence"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/071bfcb3-bcac-42bc-9585-15985840c067.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/6b89cdc5-54d3-4a04-b4e5-3e9b536810f2.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/6de2ac55-2afe-4fd2-9758-b6ea1013ff9e.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/77b3b948-2f90-4313-a6fe-b349f4046143.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/932896fd-876d-4437-9702-be02d7f19df6.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/BUILDING%20NEW%20HOMES.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/Great%20Bath.jpg?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/IMG_1736.jpg?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/IMG_5309.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/IMG_5310.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/IMG_5311.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/RETAINING%20WALL%20(8).JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/ROOM%20ADDITION.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/WhatsApp%20Image%202023-04-15%20at%206.39.12%20PM.jpeg?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/c89f61dc-53b0-43bc-995b-3516db21e0fd.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/concrete%20slab.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/d65d707c-96fc-4865-91b6-fca53720b432.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/eef05198-b5c5-4ed4-afda-6bc1c25a077b.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/home%20found.JPG?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/From%20ground%20up%20work/rustic-patio.jpg?raw=true",
     "alt": "From ground up work",
-    "description": "Description for From ground up work",
+    "description": " From ground up work",
     "category": "From ground up work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/IMG_5063.JPG?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/IMG_5064.JPG?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/IMG_5065.JPG?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/IMG_5154.JPG?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/Powder%20Qoued%20(1).jpg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.09%20PM%20(1).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.09%20PM%20(3).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.09%20PM%20(4).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.09%20PM.jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.10%20PM%20(1).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.10%20PM%20(3).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.10%20PM%20(6).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.10%20PM.jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.11%20PM%20(1).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.11%20PM%20(2).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.11%20PM%20(3).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.11%20PM%20(4).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.11%20PM%20(5).jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/WhatsApp%20Image%202023-04-15%20at%206.39.11%20PM.jpeg?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/full%20back%20splash%20(18).JPG?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Kitchen%20&%20large%20areas%20work/zodiac-calacatta-natura.png?raw=true",
     "alt": "Kitchen & large areas work",
-    "description": "Description for Kitchen & large areas work",
+    "description": " Kitchen & large areas work",
     "category": "Kitchen & large areas work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Roofing%20work/roof%202022-08-03%20at%209.16.18%20AM.jpeg?raw=true",
     "alt": "Roofing work",
-    "description": "Description for Roofing work",
+    "description": " Roofing work",
     "category": "Roofing work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Roofing%20work/skylight.jpg?raw=true",
     "alt": "Roofing work",
-    "description": "Description for Roofing work",
+    "description": " Roofing work",
     "category": "Roofing work"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Satisfied%20celebrities%20&%20customers/ABE%20BE4%20&AFTER%20(10).JPG?raw=true",
     "alt": "Satisfied celebrities & customers",
-    "description": "Description for Satisfied celebrities & customers",
+    "description": " Satisfied celebrities & customers",
     "category": "Satisfied celebrities & customers"
   },
   {
     "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/Satisfied%20celebrities%20&%20customers/CELEBERTIES.JPG?raw=true",
     "alt": "Satisfied celebrities & customers",
-    "description": "Description for Satisfied celebrities & customers",
+    "description": " Satisfied celebrities & customers",
     "category": "Satisfied celebrities & customers"
   }
 ]
