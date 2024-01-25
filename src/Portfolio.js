@@ -2,6 +2,32 @@ import React, { useState } from 'react';
 import './Portfolio.css';
 import portfolioItems from './portfolioItems.json';
 
+const PortfolioItem = ({ item }) => {
+  if (item.type === 'image') {
+    return (
+      <div className="portfolio-item">
+        <img src={item.src} alt={item.alt} />
+        <p>{item.description}</p>
+      </div>
+    );
+  } else if (item.type === 'video') {
+    return (
+      <div className="portfolio-item">
+        <iframe
+          src={item.src}
+          frameBorder="0"
+          allowFullScreen
+          title={item.alt}
+          width="560" 
+          height="315"
+        ></iframe>
+        <p>{item.description}</p>
+      </div>
+    );
+  }
+  return null;
+};
+
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState(null);
 
@@ -30,10 +56,7 @@ const Portfolio = () => {
           {activeCategory === category && (
             <div className="portfolio-grid">
               {groupedPortfolioItems[category].map((item, index) => (
-                <div className="portfolio-item" key={index} onClick={() => {/* Function to open modal or lightbox */}}>
-                  <img src={item.src} alt={item.alt} />
-                  <p>{item.description}</p>
-                </div>
+                <PortfolioItem item={item} key={index} />
               ))}
             </div>
           )}
