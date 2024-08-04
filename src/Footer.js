@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-      <p>© 2023 KBCA Construction. All rights reserved.</p>
+      <p>© 2024 KBCA Construction. All rights reserved.</p>
       {/* Add more footer content as needed */}
     </footer>
   );
