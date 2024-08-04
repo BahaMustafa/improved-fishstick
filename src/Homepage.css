@@ -1,22 +1,156 @@
 #home {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background-image-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the background image is behind all content */
+}
+
+.background-image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-content {
+  position: relative;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px; /* Increased padding for more emphasis */
+  border-radius: 10px;
+  max-width: 700px; /* Slightly wider to accommodate larger text */
+  z-index: 2; /* Ensure the text content is above other elements */
+}
+
+.text-content h1 {
+  font-size: 2.5em; /* Increased from default size */
+  margin-bottom: 20px; /* Add spacing between heading and paragraph */
+}
+
+.text-content p {
+  font-size: 1.2em; /* Increased from default size */
+  margin-bottom: 15px; /* Add spacing between paragraphs */
+}
+
+/* Trust Badge Styling */
+.trust-badge {
+  position: absolute;
+  bottom: 20px; /* Position 20px from the bottom */
+  right: 20px; /* Position 20px from the right */
+  width: 180px; /* Increase the size of the badge */
+  height: 180px; /* Increase the size of the badge */
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.7); /* Faded background for subtle effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2; /* Keep it above the background but in harmony with text */
+}
+
+.text-container {
+  text-align: center;
+}
+
+.trust-text {
+  font-size: 14px; /* Slightly larger font size */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.since {
+  font-size: 12px; /* Slightly larger font size */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 5px; /* Spacing between "EARNING TRUST" and "SINCE" */
+  display: block;
+}
+
+.year {
+  font-size: 28px; /* Slightly larger font size */
+  color: white;
+  font-weight: bold;
+  margin-top: 5px; /* Spacing between "SINCE" and "1990" */
+  display: block;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .trust-badge {
+    width: 150px;
+    height: 150px;
+    bottom: 10px;
+    right: 10px;
   }
-  
-  .background-image-holder img {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
+
+  .trust-text {
+    font-size: 12px;
   }
-  
+
+  .since {
+    font-size: 10px;
+  }
+
+  .year {
+    font-size: 24px;
+  }
+
   .text-content {
-    position: absolute;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    border-radius: 10px;
+    font-size: 1.1em;
   }
-  
+
+  .text-content h1 {
+    font-size: 2em;
+  }
+
+  .text-content p {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .trust-badge {
+    width: 130px;
+    height: 130px;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .trust-text {
+    font-size: 10px;
+  }
+
+  .since {
+    font-size: 8px;
+  }
+
+  .year {
+    font-size: 20px;
+  }
+
+  .text-content {
+    padding: 15px;
+    font-size: 1em;
+  }
+
+  .text-content h1 {
+    font-size: 1.8em;
+  }
+
+  .text-content p {
+    font-size: 1em;
+  }
+}
