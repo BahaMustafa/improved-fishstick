@@ -1,29 +1,97 @@
+/* Testimonials Section */
 #testimonials {
-    background-color: #f4f4f4; /* Or any other color that fits your design */
-    padding: 2rem;
-    text-align: center;
-  }
-  
+  background-color: #f4f4f4; /* Light background color */
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.testimonials-section {
+  padding: 60px 20px;
+  position: relative;
+}
+
+.testimonial {
+  background: #ffffff;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0,0,0,0.2);
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin: 0 auto 1.5rem;
+  max-width: 700px;
+  color: #555;
+  text-align: center;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  animation: fadeIn 1s ease;
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #ffc107; /* Gold color for filled stars */
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.custom-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.next-arrow {
+  right: 10px;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+/* Hide pagination dots */
+.slick-dots {
+  display: none !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .testimonial {
-    margin-bottom: 1.5rem;
+    padding: 1.5rem;
   }
-  
-  blockquote {
-    font-style: italic;
-    color: #333;
-    quotes: "“" "”" "‘" "’";
-  }
-  
-  blockquote:before {
-    content: open-quote;
-  }
-  
-  blockquote:after {
-    content: close-quote;
-  }
-  
+
   .star-rating {
-    color: #ffc107; /* Gold color for stars */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-  
+
+  .custom-arrow {
+    display: none; /* Hide arrows on smaller screens */
+  }
+}

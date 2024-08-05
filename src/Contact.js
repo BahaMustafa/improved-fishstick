@@ -1,6 +1,7 @@
 import React from 'react';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 import './contact.css';
+import { FaPhoneAlt, FaFax, FaMobileAlt, FaEnvelope, FaMapMarkerAlt, FaInstagram } from 'react-icons/fa';
 
 function Contact() {
   const officePhoneNumber = '(626) 393-2638'; 
@@ -20,13 +21,35 @@ function Contact() {
       </Helmet>
       <section id="contact">
         <h2>Contact Kal Best Contractor, Inc (KBCI)</h2>
-        <p><strong>Address:</strong> <a href={googleMapsQuery} target="_blank" rel="noopener noreferrer">{address}</a></p>
-        <p><strong>Office Phone:</strong> <a href={`tel:${officePhoneNumber}`}>{officePhoneNumber}</a></p>
-        <p><strong>Fax:</strong> {faxNumber}</p>
-        <p><strong>Cell:</strong> <a href={`tel:${cellPhoneNumber}`}>{cellPhoneNumber}</a></p>
-        <p><strong>Email:</strong> <a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
-        <p><strong>License No:</strong> {licenseNumber}</p>
-        <p><strong>Follow us on Instagram:</strong> <a href="https://www.instagram.com/kbci_/" target="_blank" rel="noopener noreferrer">@kbci_</a></p>
+        <div className="contact-grid">
+          <div className="contact-item">
+            <FaMapMarkerAlt />
+            <p><strong>Address:</strong> <a href={googleMapsQuery} target="_blank" rel="noopener noreferrer">{address}</a></p>
+          </div>
+          <div className="contact-item">
+            <FaPhoneAlt />
+            <p><strong>Office Phone:</strong> <a href={`tel:${officePhoneNumber}`}>{officePhoneNumber}</a></p>
+          </div>
+          <div className="contact-item">
+            <FaFax />
+            <p><strong>Fax:</strong> {faxNumber}</p>
+          </div>
+          <div className="contact-item">
+            <FaMobileAlt />
+            <p><strong>Cell:</strong> <a href={`tel:${cellPhoneNumber}`}>{cellPhoneNumber}</a></p>
+          </div>
+          <div className="contact-item">
+            <FaEnvelope />
+            <p><strong>Email:</strong> <a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
+          </div>
+          <div className="contact-item">
+            <FaInstagram />
+            <p><strong>Follow us on Instagram:</strong> <a href="https://www.instagram.com/kbci_/" target="_blank" rel="noopener noreferrer">@kbci_</a></p>
+          </div>
+        </div>
+
+        {/* Optional: Include a contact form */}
+        
       </section>
     </>
   );
