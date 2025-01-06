@@ -6,17 +6,30 @@
         "type": "video",
         "src": "https://www.youtube.com/embed/J2CXer81Ln4",
         "alt": "Description of Video",
-        "description": "Read Park Concrete Slab With logo ",
+        "description": "Read Park Concrete Slab With logo",
         "category": "Videos"
       },
       {
         "type": "video",
         "src": "https://www.youtube.com/embed/4KQSHIdrpV0",
         "alt": "Description of Video",
-        "description": "Read Park Concrete Slab With logo ",
+        "description": "Park opening with logo",
         "category": "Videos"
       },
-      
+      {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/NRDqaoL0i4U?si=PMKMuCyS_Ns58BFt",
+        "alt": "Description of Video",
+        "description": "Testimonial Long Beach Condo",
+        "category": "Videos"
+      },
+      {
+        "type": "video",
+        "src": "https://www.youtube.com/embed/NRDqaoL0i4U?si=PMKMuCyS_Ns58BFt",
+        "alt": "Description of Video",
+        "description": "Testimonial Long Beach Condo",
+        "category": "Videos"
+      },
       {
         "type": "image",
         "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/El%20segundo%20police%20department%20flooring%20project/2486_1.jpg?raw=true",
