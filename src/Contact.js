@@ -138,13 +138,30 @@ function Contact() {
               <div className="contact-content">
                 <h3>License</h3>
                 <p>
-                  <a
-                    href="https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=1078043"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    #{licenseNumber}
-                  </a>
+                <a
+Add comment
+More actions
+
+
+                href="https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=1078043"
+
+
+                target="_blank"
+
+
+                // rel="noopener noreferrer"
+
+
+              >
+
+
+                {" "}
+
+
+                {licenseNumber}{" "}
+
+
+              </a>
                 </p>
               </div>
             </div>
