@@ -1,10 +1,18 @@
 import React from 'react';
 import './Footer.css';
+import { FaClipboardList } from 'react-icons/fa';
+
 function Footer() {
   return (
     <footer>
-      <p>© 2024 KBCA Construction. All rights reserved.</p>
-      {/* Add more footer content as needed */}
+      <div className="footer-content">
+        <p>© 2025 KBCA Construction. All rights reserved.</p>
+        <div className="footer-license">
+          <FaClipboardList /> 
+          <span>License #1078043</span>
+        </div>
+        <p>maintained by <a href="https://techdevprime.com">TechDevPrime</a></p>
+      </div>
     </footer>
   );
 }

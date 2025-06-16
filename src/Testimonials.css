@@ -11,13 +11,52 @@
   position: relative;
 }
 
+.testimonials-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.testimonials-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.google-reviews-link {
+  margin-bottom: 3rem;
+}
+
+.google-reviews-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #4285f4 0%, #34a853 100%);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
+}
+
+.google-reviews-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(66, 133, 244, 0.4);
+  text-decoration: none;
+  color: white;
+}
+
 .testimonial {
   background: #ffffff;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 1rem auto;
   max-width: 800px;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   color: #333;
@@ -26,17 +65,84 @@
 
 .testimonial:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+}
+
+/* Image Container Styles */
+.testimonial-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffc107;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.testimonial-image-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px dashed #dee2e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.testimonial-image-placeholder:hover {
+  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+  border-color: #adb5bd;
+}
+
+.placeholder-icon {
+  font-size: 1.8rem;
+  color: #6c757d;
+  margin-bottom: 2px;
+}
+
+.placeholder-text {
+  font-size: 0.7rem;
+  color: #6c757d;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
 }
 
 blockquote {
   font-style: italic;
-  font-size: 1.2em;
-  line-height: 1.4;
+  font-size: 1.1em;
+  line-height: 1.6;
   margin: 0 auto 1.5rem;
   max-width: 700px;
-  color: #555;
+  color: #444;
   text-align: center;
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  font-size: 3rem;
+  color: #ffc107;
+  position: absolute;
+  left: -20px;
+  top: -10px;
+  font-family: serif;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .star-rating {
@@ -48,7 +154,8 @@ blockquote {
 
 .star {
   font-size: 1.5rem;
-  color: #ffc107; /* Gold color for filled stars */
+  color: #ffc107;
+  margin: 0 2px;
 }
 
 .custom-arrow {
@@ -76,15 +183,32 @@ blockquote {
   left: 10px;
 }
 
-/* Hide pagination dots */
 .slick-dots {
   display: none !important;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .testimonials-section h2 {
+    font-size: 2rem;
+  }
+  
   .testimonial {
-    padding: 1.5rem;
+    padding: 2rem;
+  }
+
+  .testimonial-image,
+  .testimonial-image-placeholder {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .placeholder-icon {
+    font-size: 1.5rem;
+  }
+  
+  .placeholder-text {
+    font-size: 0.6rem;
   }
 
   .star-rating {
@@ -92,6 +216,49 @@ blockquote {
   }
 
   .custom-arrow {
-    display: none; /* Hide arrows on smaller screens */
+    display: none;
+  }
+  
+  .google-reviews-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  
+  blockquote::before {
+    left: -15px;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-section {
+    padding: 40px 15px;
+  }
+  
+  .testimonial {
+    padding: 1.5rem;
+  }
+  
+  .testimonial-image,
+  .testimonial-image-placeholder {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .placeholder-icon {
+    font-size: 1.3rem;
+  }
+  
+  .placeholder-text {
+    font-size: 0.55rem;
+  }
+  
+  blockquote {
+    font-size: 1rem;
+  }
+  
+  blockquote::before {
+    left: -10px;
+    font-size: 2rem;
   }
 }

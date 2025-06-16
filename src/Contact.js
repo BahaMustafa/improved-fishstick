@@ -8,6 +8,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaInstagram,
+  FaFacebookF,
   FaClipboardList,
 } from "react-icons/fa";
 
@@ -34,79 +35,131 @@ function Contact() {
           content="contact, construction, remodeling, contractor, Rowland Heights, CA"
         />
       </Helmet>
-      <section id="contact" >
-        <h2>Contact Kal Best Contractor, Inc (KBCI)</h2>
-        <div className="contact-grid">
-          <div className="contact-item">
-            <FaMapMarkerAlt />
-            <p>
-              <strong>Address:</strong>{" "}
-              <a
-                href={googleMapsQuery}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {address}
-              </a>
-            </p>
-          </div>
-          <div className="contact-item">
-            <FaPhoneAlt />
-            <p>
-              <strong>Office Phone:</strong>{" "}
-              <a href={`tel:${officePhoneNumber}`}>{officePhoneNumber}</a>
-            </p>
-          </div>
-          <div className="contact-item">
-            <FaFax />
-            <p>
-              <strong>Fax:</strong> {faxNumber}
-            </p>
-          </div>
-          <div className="contact-item">
-            <FaMobileAlt />
-            <p>
-              <strong>Cell:</strong>{" "}
-              <a href={`tel:${cellPhoneNumber}`}>{cellPhoneNumber}</a>
-            </p>
-          </div>
-          <div className="contact-item">
-            <FaEnvelope />
-            <p>
-              <strong>Email:</strong>{" "}
-              <a href={`mailto:${emailAddress}`}>{emailAddress}</a>
-            </p>
-          </div>
-          <div className="contact-item">
-            <FaInstagram />
-            <p>
-              <strong>Follow us on Instagram:</strong>{" "}
-              <a
-                href="https://www.instagram.com/kbci_/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                @kbci_
-              </a>
-            </p>
-          </div>
-          <div className="contact-item">
-            <FaClipboardList />
-            <p>
-              <strong>License Number:</strong>{" "}
-              <a
-                href="https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=1078043"
-                target="_blank"
-                // rel="noopener noreferrer"
-              >
-                {" "}
-                {licenseNumber}{" "}
-              </a>
-            </p>
+      <section id="contact">
+        <div className="contact-container">
+          <h2 className="contact-title">Get In Touch</h2>
+          <p className="contact-subtitle">Ready to start your next project? Contact us today!</p>
+          
+          <div className="contact-bento-grid">
+            <div className="contact-card contact-card-primary">
+              <div className="contact-icon">
+                <FaMapMarkerAlt />
+              </div>
+              <div className="contact-content">
+                <h3>Visit Us</h3>
+                <p>
+                  <a
+                    href={googleMapsQuery}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {address}
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div className="contact-card contact-card-secondary">
+              <div className="contact-icon">
+                <FaPhoneAlt />
+              </div>
+              <div className="contact-content">
+                <h3>Office Phone</h3>
+                <p>
+                  <a href={`tel:${officePhoneNumber}`}>{officePhoneNumber}</a>
+                </p>
+              </div>
+            </div>
+
+            <div className="contact-card contact-card-accent">
+              <div className="contact-icon">
+                <FaMobileAlt />
+              </div>
+              <div className="contact-content">
+                <h3>Mobile</h3>
+                <p>
+                  <a href={`tel:${cellPhoneNumber}`}>{cellPhoneNumber}</a>
+                </p>
+              </div>
+            </div>
+
+            <div className="contact-card contact-card-info">
+              <div className="contact-icon">
+                <FaEnvelope />
+              </div>
+              <div className="contact-content">
+                <h3>Email Us</h3>
+                <p>
+                  <a href={`mailto:${emailAddress}`}>{emailAddress}</a>
+                </p>
+              </div>
+            </div>
+
+            <div className="contact-card contact-card-social">
+              <div className="contact-icon">
+                <FaInstagram />
+              </div>
+              <div className="contact-content">
+                <h3>Instagram</h3>
+                <p>
+                  <a
+                    href="https://www.instagram.com/kbci_/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    @kbci_
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div className="contact-card contact-card-facebook">
+              <div className="contact-icon">
+                <FaFacebookF />
+              </div>
+              <div className="contact-content">
+                <h3>Facebook</h3>
+                <p>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100040696403038&mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit our page
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div className="contact-card contact-card-license">
+              <div className="contact-icon">
+                <FaClipboardList />
+              </div>
+              <div className="contact-content">
+                <h3>License</h3>
+                <p>
+                  <a
+                    href="https://www.cslb.ca.gov/onlineservices/checklicenseII/LicenseDetail.aspx?LicNum=1078043"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    #{licenseNumber}
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div className="contact-card contact-card-fax">
+              <div className="contact-icon">
+                <FaFax />
+              </div>
+              <div className="contact-content">
+                <h3>Fax</h3>
+                <p>{faxNumber}</p>
+              </div>
+            </div>
           </div>
         </div>
-
-        {/* Optional: Include a contact form */}
       </section>
     </>
   );
