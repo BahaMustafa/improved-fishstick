@@ -1,10 +1,45 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useInView } from 'react-intersection-observer';
 import './About.css';
 import { FaAward, FaUsers, FaHandshake, FaTools, FaHome, FaCertificate } from 'react-icons/fa';
+import { animate } from 'animejs';
 
 function About() {
+  useEffect(() => {
+    // Character animation with anime.js
+    const characterElement = document.querySelector('.character-animation');
+    if (characterElement) {
+      // Set up the text with individual spans
+      const text = "We're not the cheapest, but we are the best.\nQuality craftsmanship, reliable service, and customer satisfaction guaranteed.";
+      
+      characterElement.innerHTML = text.split('').map(char => {
+        if (char === '\n') return '<br>';
+        return `<span>${char === ' ' ? '&nbsp;' : char}</span>`;
+      }).join('');
+      
+      // Apply anime.js animation
+      setTimeout(() => {
+        animate('.character-animation span', {
+          // Property keyframes
+          y: [
+            { to: '-2.75rem', ease: 'outExpo', duration: 600 },
+            { to: 0, ease: 'outBounce', duration: 800, delay: 100 }
+          ],
+          // Property specific parameters
+          rotate: {
+            from: '-1turn',
+            delay: 0
+          },
+          delay: (_, i) => i * 50, // Function based value
+          ease: 'inOutCirc',
+          loopDelay: 1000,
+          loop: true
+        });
+      }, 400);
+    }
+  }, []);
+
   const [heroRef, heroInView] = useInView({
     triggerOnce: true,
     rootMargin: '-100px 0px',

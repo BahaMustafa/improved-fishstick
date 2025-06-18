@@ -464,3 +464,17 @@
     font-size: 1.8rem;
   }
 }
+
+/* Remove any previous character animation CSS and keep only this simple style */
+.character-animation {
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 1rem 0;
+}
+
+.character-animation span {
+  display: inline-block;
+}
+
+/* Keep all your other existing styles unchanged */

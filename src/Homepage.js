@@ -1,17 +1,57 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import './Homepage.css';
-import { FaPhone, FaEnvelope, FaAward, FaUsers, FaTools } from 'react-icons/fa';
+import { FaPhone, FaAward, FaUsers, FaTools } from 'react-icons/fa';
+import { animate } from 'animejs';
 
 function Homepage() {
   useEffect(() => {
-    // Add animation classes after component mounts
-    const elements = document.querySelectorAll('.animate-on-load');
+    // Simple class addition for other animations
+    const elements = document.querySelectorAll('.animate-on-load:not(.character-animation)');
+    
+    const timeouts = [];
     elements.forEach((element, index) => {
-      setTimeout(() => {
+      const timeout = setTimeout(() => {
         element.classList.add('animate-in');
-      }, index * 200); // Stagger animations by 200ms
+      }, index * 200);
+      timeouts.push(timeout);
     });
+
+    // Character animation with anime.js
+    const characterElement = document.querySelector('.character-animation');
+    if (characterElement) {
+      // Set up the text with individual spans
+      const text = "We're not the cheapest, but we are the best.\Quality craftsmanship, reliable service, and customer satisfaction guaranteed.";
+      
+      characterElement.innerHTML = text.split('').map(char => {
+        if (char === '\n') return '<br>';
+        return `<span>${char === ' ' ? '&nbsp;' : char}</span>`;
+      }).join('');
+      
+      // Apply anime.js animation
+      setTimeout(() => {
+        animate('.character-animation span', {
+          // Property keyframes
+          y: [
+            { to: '-2.75rem', ease: 'outExpo', duration: 600 },
+            { to: 0, ease: 'outBounce', duration: 800, delay: 100 }
+          ],
+          // Property specific parameters
+          rotate: {
+            from: '-1turn',
+            delay: 0
+          },
+          delay: (_, i) => i * 50, // Function based value
+          ease: 'inOutCirc',
+          loopDelay: 1000,
+          loop: true
+        });
+      }, 400);
+    }
+
+    return () => {
+      timeouts.forEach(timeout => clearTimeout(timeout));
+    };
   }, []);
 
   return (
@@ -25,7 +65,6 @@ function Homepage() {
         <div className="background-video-holder">
           <video autoPlay muted loop playsInline>
             <source src="https://res.cloudinary.com/dh19j0ik1/video/upload/1817871-hd_1920_1080_30fps_tcqlab.mp4" type="video/mp4" />
-            {/* Fallback image */}
             <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Professional Construction Services by KBCI" />
           </video>
           <div className="overlay"></div>
@@ -35,7 +74,7 @@ function Homepage() {
           <div className="hero-text">
             <h1 className="animate-on-load">Professional Construction & Remodeling</h1>
             <p className="hero-subtitle animate-on-load">Serving Rowland Heights & Surrounding Areas Since 1990</p>
-            <p className="hero-description animate-on-load">We're not the cheapest, but we are the best. Quality craftsmanship, reliable service, and customer satisfaction guaranteed.</p>
+            <p className="hero-description character-animation"></p>
             
             <div className="cta-buttons animate-on-load">
               <a href="mailto:kal@kbci.pro" className="btn btn-primary">Get Free Quote</a>

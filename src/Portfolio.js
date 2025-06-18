@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Portfolio.css';
 import portfolioItems from './portfolioItems.json';
+import { animate } from 'animejs';
 
 const PortfolioItem = ({ item, onImageClick }) => {
   if (item.type === 'image') {
@@ -64,6 +65,40 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    // Character animation with anime.js
+    const characterElement = document.querySelector('.character-animation');
+    if (characterElement) {
+      // Set up the text with individual spans
+      const text = "We're not the cheapest, but we are the best.\nQuality craftsmanship, reliable service, and customer satisfaction guaranteed.";
+      
+      characterElement.innerHTML = text.split('').map(char => {
+        if (char === '\n') return '<br>';
+        return `<span>${char === ' ' ? '&nbsp;' : char}</span>`;
+      }).join('');
+      
+      // Apply anime.js animation
+      setTimeout(() => {
+        animate('.character-animation span', {
+          // Property keyframes
+          y: [
+            { to: '-2.75rem', ease: 'outExpo', duration: 600 },
+            { to: 0, ease: 'outBounce', duration: 800, delay: 100 }
+          ],
+          // Property specific parameters
+          rotate: {
+            from: '-1turn',
+            delay: 0
+          },
+          delay: (_, i) => i * 50, // Function based value
+          ease: 'inOutCirc',
+          loopDelay: 1000,
+          loop: true
+        });
+      }, 400);
+    }
+  }, []);
 
   const handleImageClick = (image) => {
     setSelectedImage(image);

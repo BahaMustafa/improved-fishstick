@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import './Testimonials.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { animate } from 'animejs';
 
 function Testimonial({ text, rating, author, image }) {
   const stars = Array.from({ length: 5 }, (_, index) => (
@@ -29,6 +30,39 @@ function Testimonial({ text, rating, author, image }) {
 }
 
 function Testimonials() {
+  useEffect(() => {
+    // Character animation with anime.js
+    const characterElement = document.querySelector('.character-animation');
+    if (characterElement) {
+      // Set up the text with individual spans
+      const text = "We're not the cheapest, but we are the best.\nQuality craftsmanship, reliable service, and customer satisfaction guaranteed.";
+      
+      characterElement.innerHTML = text.split('').map(char => {
+        if (char === '\n') return '<br>';
+        return `<span>${char === ' ' ? '&nbsp;' : char}</span>`;
+      }).join('');
+      
+      // Apply anime.js animation
+      setTimeout(() => {
+        animate('.character-animation span', {
+          // Property keyframes
+          y: [
+            { to: '-2.75rem', ease: 'outExpo', duration: 600 },
+            { to: 0, ease: 'outBounce', duration: 800, delay: 100 }
+          ],
+          // Property specific parameters
+          rotate: {
+            from: '-1turn',
+            delay: 0
+          },
+          delay: (_, i) => i * 50, // Function based value
+          ease: 'inOutCirc',
+          loopDelay: 1000,
+          loop: true
+        });
+      }, 400);
+    }
+  }, []);
   const testimonialsData = [
     { 
       text: "Great service, the gentleman knows his craft and he took care of the paperwork.", 
@@ -118,20 +152,12 @@ function Testimonials() {
   };
 
   return (
-    <section id="testimonials" className="testimonials-section">
-      <h2>What Our Customers Say</h2>
-      <p className="testimonials-subtitle">
-        Don't just take our word for it - see what our satisfied customers have to say about our work.
-      </p>
-      <div className="google-reviews-link">
-        <a 
-          href="https://www.google.com/maps/place/Kal+Best+Contractor+Inc/@33.978063,-117.890705,17z/data=!4m18!1m9!3m8!1s0x80c32b8d43bfe215:0x48b8d066396aed35!2sKal+Best+Contractor+Inc!8m2!3d33.978063!4d-117.8881247!9m1!1b1!16s%2Fg%2F11xft9s6ft!3m7!1s0x80c32b8d43bfe215:0x48b8d066396aed35!8m2!3d33.978063!4d-117.8881247!9m1!1b1!16s%2Fg%2F11xft9s6ft?authuser=1&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="google-reviews-btn"
-        >
-          View All Reviews on Google Maps
-        </a>
+    <section id="testimonials">
+      <div className="container">
+        <div className="section-header">
+          <h2>What Our Clients Say</h2>
+          <p className="character-animation"></p>
+        </div>
       </div>
       <Slider {...settings}>
         {testimonialsData.map((testimonial, index) => (

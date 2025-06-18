@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './Services.css';
 import { FaTools, FaBath, FaLayerGroup, FaCogs, FaHome, FaHammer, FaPhone } from 'react-icons/fa';
+import { animate } from 'animejs';
 
 function Service({ title, children, className, icon, features }) {
   const [ref, inView] = useInView({
@@ -27,11 +28,46 @@ function Service({ title, children, className, icon, features }) {
 }
 
 function Services() {
+  useEffect(() => {
+    // Character animation with anime.js
+    const characterElement = document.querySelector('.character-animation');
+    if (characterElement) {
+      // Set up the text with individual spans
+      const text = "We're not the cheapest, but we are the best.\nQuality craftsmanship, reliable service, and customer satisfaction guaranteed.";
+      
+      characterElement.innerHTML = text.split('').map(char => {
+        if (char === '\n') return '<br>';
+        return `<span>${char === ' ' ? '&nbsp;' : char}</span>`;
+      }).join('');
+      
+      // Apply anime.js animation
+      setTimeout(() => {
+        animate('.character-animation span', {
+          // Property keyframes
+          y: [
+            { to: '-2.75rem', ease: 'outExpo', duration: 600 },
+            { to: 0, ease: 'outBounce', duration: 800, delay: 100 }
+          ],
+          // Property specific parameters
+          rotate: {
+            from: '-1turn',
+            delay: 0
+          },
+          delay: (_, i) => i * 50, // Function based value
+          ease: 'inOutCirc',
+          loopDelay: 1000,
+          loop: true
+        });
+      }, 400);
+    }
+  }, []);
+
   return (
     <section id="services">
       <div className="container">
         <div className="section-header">
           <h2>Our Construction & Remodeling Services</h2>
+          <p className="character-animation"></p>
           <p>Professional contractor services in Rowland Heights, CA and surrounding areas</p>
         </div>
         
