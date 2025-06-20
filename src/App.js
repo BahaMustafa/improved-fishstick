@@ -11,8 +11,10 @@ import Contact from './Contact';
 import Footer from './Footer';
 import FeatureSection from './FeatureSection'; // Import the FeatureSection component
 import ErrorBoundary from './ErrorBoundary'; // Import ErrorBoundary for handling errors
+import ScrollToTop from './ScrollToTop'; // Import the ScrollToTop component
 
 function App() {
+  
   return (
     <HelmetProvider>
       <ErrorBoundary>
@@ -26,6 +28,7 @@ function App() {
           <Testimonials />
           <Contact />
           <Footer />
+          <ScrollToTop />
         </div>
       </ErrorBoundary>
     </HelmetProvider>
