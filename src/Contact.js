@@ -19,7 +19,7 @@ function Contact() {
     const characterElement = document.querySelector('.character-animation');
     if (characterElement) {
       // Set up the text with individual spans
-      const text = "We're not the cheapest, but we are the best.\nQuality craftsmanship, reliable service, and customer satisfaction guaranteed.";
+      const text = "Kal Best not the cheapest, but we are the best.\nQuality craftsmanship, reliable service, and customer satisfaction guaranteed.";
       
       characterElement.innerHTML = text.split('').map(char => {
         if (char === '\n') return '<br>';
