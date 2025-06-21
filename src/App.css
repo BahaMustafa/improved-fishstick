@@ -59,7 +59,7 @@ body {
 }
 
 .nav-logo-img {
-  height: 40px;
+  height: 60px;
   width: auto;
   object-fit: contain;
 }
@@ -75,6 +75,14 @@ body {
   color: var(--secondary-color);
   font-size: 0.9rem;
   font-weight: 500;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.nav-contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav-contact-info .nav-phone {
@@ -89,6 +97,19 @@ body {
 
 .nav-contact-info .nav-phone:hover {
   color: var(--secondary-color);
+}
+
+.nav-license {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.nav-license svg {
+  font-size: 0.75rem;
 }
 
 .nav-menu {
@@ -198,7 +219,7 @@ body {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 80px;
     flex-direction: column;
     background: var(--white);
     width: 100%;
@@ -221,6 +242,24 @@ body {
     padding: 1rem;
   }
 
+  .nav-logo-text span {
+    margin-bottom: 1rem;
+  }
+
+  .nav-contact-info {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .nav-license {
+    font-size: 0.75rem;
+  }
+  
+  .nav-phone {
+    font-size: 0.9rem;
+  }
+
   .section-header h2 {
     font-size: 2rem;
   }
@@ -241,6 +280,9 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 0.5rem;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
   }
 
   .section-header h2 {
@@ -248,55 +290,15 @@ body {
   }
 
   .nav-logo-img {
-    height: 35px;
+    height: 50px;
   }
 
   .nav-logo-text h2 {
     font-size: 1.5rem;
   }
-}
 
-/* Add these styles to your existing App.css file */
-
-.nav-contact-info {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.nav-license {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.85rem;
-  color: var(--primary-color);
-  font-weight: 500;
-}
-
-.nav-license svg {
-  font-size: 0.75rem;
-}
-
-/* Mobile responsiveness for navbar contact info */
-@media (max-width: 768px) {
-  .nav-contact-info {
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: flex-end;
-  }
-  
-  .nav-license {
-    font-size: 0.75rem;
-  }
-  
-  .nav-phone {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .nav-contact-info {
-    gap: 0.3rem;
+  .nav-logo-text span {
+    margin-bottom: 1.5rem;
   }
   
   .nav-license {

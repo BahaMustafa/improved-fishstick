@@ -14,7 +14,7 @@ function Navbar() {
       <div className="nav-container">
         <div className="nav-logo">
           <img 
-            src="https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Screenshot%202023-12-09%20at%2012.04.53%E2%80%AFPM.png?raw=true" 
+            src="/logo.webp" 
             alt="KBCI Logo" 
             className="nav-logo-img"
           />
