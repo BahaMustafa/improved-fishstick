@@ -31,6 +31,13 @@
         "category": "Videos"
       },
       {
+        "type": "video",
+        "src": "https://drive.google.com/file/d/1iLQPWSheTBTRKFEY9zE4IhkjW31jl9pa/preview",
+        "alt": "Description of Video",
+        "description": "La Bodega Los Angeles",
+        "category": "Videos"
+      },
+      {
         "type": "image",
         "src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/build/Kitchen%20&%20large%20areas%20work/El%20segundo%20police%20department%20flooring%20project/2486_1.jpg?raw=true",
         "alt": "El Segundo Police Department Flooring Project",
@@ -1087,5 +1094,71 @@
 "alt": "Lindbergh School Ceiling replacement Newport-Mesa Unified School District",
 "description": " Lindbergh School Ceiling replacement Newport-Mesa Unified School District",
 "category": "Lindbergh School Ceiling replacement Newport-Mesa Unified School District"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-51.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-52%202.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-52%203.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-52%204.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-52.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-53%202.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-53.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-54%202.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-54%203.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-54.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
+},
+{"type": "image",
+"src": "https://github.com/BahaMustafa/improved-fishstick/blob/main/public/Kitchen%20&%20large%20areas%20work/La%20Bodega/PHOTO-2025-08-14-20-35-51%202.jpg?raw=true",
+"alt": "La Bodega Los Angeles",
+"description": "La Bodega Los Angeles",
+"category": "La Bodega"
 }
 ]
