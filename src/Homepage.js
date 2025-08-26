@@ -57,7 +57,7 @@ function Homepage() {
   return (
     <>
       <Helmet>
-        <title>General Contractor Rowland Heights CA | Kitchen & Bathroom Remodeling | KBCI</title>
+        <title>General Contractor Rowland Heights CA | Kitchen & Bathroom Remodeling | Kal Best Contractor, Inc (KBCI)</title>
         <meta name="description" content="Professional general contractor in Rowland Heights, CA 91748. Specializing in kitchen remodeling, bathroom renovations, flooring, and concrete work. Licensed contractor since 1990." />
         <meta name="keywords" content="general contractor Rowland Heights, kitchen remodeling 91748, bathroom renovation CA, flooring contractor, concrete slab construction, home remodeling Rowland Heights" />
       </Helmet>

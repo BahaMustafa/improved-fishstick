@@ -58,7 +58,7 @@ function About() {
   return (
     <>
       <Helmet>
-        <title>About KBCI - Licensed General Contractor Rowland Heights CA Since 1990</title>
+        <title>About Kal Best Contractor, Inc (KBCI) - Licensed General Contractor Rowland Heights CA Since 1990</title>
         <meta name="description" content="Learn about Kal Best Contractor Inc (KBCI), a family-owned licensed general contractor serving Rowland Heights, CA since 1990. 30+ years of quality construction and remodeling experience." />
         <meta name="keywords" content="about KBCI, family owned contractor, licensed contractor Rowland Heights, construction company since 1990, general contractor CA" />
       </Helmet>
@@ -71,7 +71,7 @@ function About() {
               <h1>About Kal Best Contractor, Inc.</h1>
               <p className="subtitle">Building Excellence Since 1990</p>
               <p className="description">
-                KBCI is a family-owned, licensed general contractor that has been delivering exceptional 
+                Kal Best Contractor, Inc (KBCI) is a family-owned, licensed general contractor that has been delivering exceptional 
                 construction and remodeling services to Rowland Heights and surrounding communities for over 
                 three decades. We pride ourselves on quality craftsmanship, reliable service, and building 
                 lasting relationships with our clients.
@@ -161,7 +161,7 @@ function About() {
               <div className="timeline-year">1990</div>
               <div className="timeline-content">
                 <h4>Company Founded</h4>
-                <p>Kal Radwan established KBCI with a vision to provide exceptional construction services to the local community.</p>
+                <p>Kal Radwan established Kal Best Contractor, Inc (KBCI) with a vision to provide exceptional construction services to the local community.</p>
               </div>
             </div>
             
@@ -204,7 +204,7 @@ function About() {
       <section className="about-cta">
         <div className="container">
           <div className="cta-content">
-            <h3>Ready to Work with KBCI?</h3>
+            <h3>Ready to Work with Kal Best Contractor, Inc (KBCI)?</h3>
             <p>Experience the difference that 30+ years of expertise makes. Contact us today for your next construction or remodeling project.</p>
             <div className="cta-buttons">
               <a href="mailto:kal@kbci.pro" className="btn btn-primary">Start Your Project</a>

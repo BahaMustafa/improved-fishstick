@@ -19,7 +19,7 @@ function Navbar() {
             className="nav-logo-img"
           />
           <div className="nav-logo-text">
-            <h2>KBCI</h2>
+            <h2>Kal Best Conractor, Inc (KBCI)</h2>
             <span>Since 1990</span>
           </div>
         </div>

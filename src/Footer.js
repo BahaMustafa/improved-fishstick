@@ -14,7 +14,7 @@ function Footer() {
                 alt="KBCI Logo" 
                 className="footer-logo-img"
               />
-              <h3>KBCI</h3>
+              <h3>Kal Best Contractor, Inc (KBCI)</h3>
               <span className="footer-tagline">Since 1990</span>
             </div>
             <p className="footer-description">
@@ -78,7 +78,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>© 2025 KBCI Construction. All rights reserved.</p>
+            <p>© 2025 Kal Best Contractor, Inc (KBCI). All rights reserved.</p>
             <p className="footer-credit">
               Website by <a href="https://techdevprime.com" target="_blank" rel="noopener noreferrer">TechDevPrime</a>
             </p>
