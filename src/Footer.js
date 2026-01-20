@@ -78,7 +78,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>© 2025 Kal Best Contractor, Inc (KBCI). All rights reserved.</p>
+            <p>© 2026 Kal Best Contractor, Inc (KBCI). All rights reserved.</p>
             <p className="footer-credit">
               Website by <a href="https://techdevprime.com" target="_blank" rel="noopener noreferrer">TechDevPrime</a>
             </p>
