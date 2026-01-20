@@ -68,7 +68,7 @@ function About() {
         <div ref={heroRef} className={`hero-content ${heroInView ? 'animate' : ''}`}>
           <div className="container">
             <div className="about-text">
-              <h1>About Kal Best Contractor, Inc.</h1>
+              <h2>About Kal Best Contractor, Inc.</h2>
               <p className="subtitle">Building Excellence Since 1990</p>
               <p className="description">
                 Kal Best Contractor, Inc (KBCI) is a family-owned, licensed general contractor that has been delivering exceptional 

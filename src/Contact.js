@@ -60,7 +60,7 @@ function Contact() {
   return (
     <>
       <Helmet>
-        <title>Kal Best Contractor, Inc. (KBCI)</title>
+        <title>General Contractor Rowland Heights CA | Kitchen & Bathroom Remodeling | Kal Best Contractor, Inc (KBCI)</title>
         <meta
           name="description"
           content="Get in touch with Kal Best Contractor, Inc. (KBCI) for expert construction and remodeling services in Rowland Heights, CA. Contact us via phone or email."
