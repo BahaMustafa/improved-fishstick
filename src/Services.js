@@ -125,6 +125,16 @@ function Services() {
           >
             Complete construction services for residential and commercial projects. Licensed, insured, and experienced professionals.
           </Service>
+
+         <Service 
+            title="General Construction" 
+            className="general-construction" 
+            icon={<FaHammer />}
+            features={['New Construction', 'Renovations', 'Repairs', 'Commercial Work']}
+          >
+            Complete construction services for residential and commercial projects. Licensed, insured, and experienced professionals.
+          </Service>             
+                      
         </div>
         
         <div className="services-cta">
