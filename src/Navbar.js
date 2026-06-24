@@ -37,7 +37,29 @@ function Navbar() {
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <a href="#home" className="nav-link" onClick={() => setIsMenuOpen(false)}>Home</a>
           <a href="#about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
-          <a href="#services" className="nav-link" onClick={() => setIsMenuOpen(false)}>Services</a>
+         <div className="nav-dropdown">
+  <a href="#services" className="nav-link">
+    Services ▾
+  </a>
+
+  <div className="dropdown-menu">
+    <a href="/custom-adu-accessory-dwelling-unit-development" onClick={() => setIsMenuOpen(false)}>
+      Custom ADU and Accessory Dwelling Unit Development
+    </a>
+
+    <a href="/exquisite-luxury-kitchen-remodeling-services" onClick={() => setIsMenuOpen(false)}>
+      Exquisite Luxury Kitchen Remodelling Services
+    </a>
+
+    <a href="/spa-inspired-luxury-bathroom-renovation" onClick={() => setIsMenuOpen(false)}>
+      Spa-Inspired Luxury Bathroom Renovation
+    </a>
+
+    <a href="/comprehensive-premium-home-renovation-experiences" onClick={() => setIsMenuOpen(false)}>
+      Comprehensive Premium Home Renovation Experiences
+    </a>
+  </div>
+</div>
           <a href="#portfolio" className="nav-link" onClick={() => setIsMenuOpen(false)}>Portfolio</a>
           <a href="#testimonials" className="nav-link" onClick={() => setIsMenuOpen(false)}>Testimonials</a>
           <a href="mailto:kal@kbci.pro" className="nav-link cta-button" onClick={() => setIsMenuOpen(false)}>Get Quote</a>
