@@ -37,7 +37,7 @@ function Navbar() {
         <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <a href="#home" className="nav-link" onClick={() => setIsMenuOpen(false)}>Home</a>
           <a href="#about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
-          <a href="#services" className="nav-link" onClick={() => setIsMenuOpen(false)}>Services</a>
+          <a href="#services" className="nav-link" onClick={() => setIsMenuOpen(false)}>Service</a>
           <a href="#portfolio" className="nav-link" onClick={() => setIsMenuOpen(false)}>Portfolio</a>
           <a href="#testimonials" className="nav-link" onClick={() => setIsMenuOpen(false)}>Testimonials</a>
           <a href="mailto:kal@kbci.pro" className="nav-link cta-button" onClick={() => setIsMenuOpen(false)}>Get Quote</a>
